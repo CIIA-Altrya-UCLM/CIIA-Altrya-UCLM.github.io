@@ -453,12 +453,17 @@ h6 {
 }
 
 @media (max-width: 768px) {
-    #hero .carousel-container {
+    #hero .carousel-container,
+    #hero .carousel-container-special {
         height: 90vh;
     }
 
     #hero h2 {
         font-size: 28px;
+    }
+
+    #hero img {
+        max-height: 150px;
     }
 }
 
@@ -645,6 +650,13 @@ section {
     border-color: var(--color);
 }
 
+@media (min-width: 768px) {
+    .materials .bx {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
 @media (max-width: 768px) {
     .materials .nav-link i {
         padding: 0;
@@ -751,6 +763,10 @@ section {
 
 .cal_day:hover .tooltiptext {
     visibility: visible;
+}
+
+#timer {
+    font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -880,4 +896,13 @@ section {
     max-height: 40px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+
+    #footer img {
+        max-height: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }

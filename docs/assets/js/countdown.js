@@ -128,10 +128,10 @@ function makeTimer() {
         seconds = "0" + seconds;
     }
 
-    document.getElementById("days").innerHTML = days + "<span>Días</span>";
-    document.getElementById("hours").innerHTML = hours + "<span>Horas</span>";
-    document.getElementById("minutes").innerHTML = minutes + "<span>Minutos</span>";
-    document.getElementById("seconds").innerHTML = seconds + "<span>Segundos</span>";
+    document.getElementById("days").innerHTML = days + "<span> días,</span>";
+    document.getElementById("hours").innerHTML = hours + "<span> horas,</span>";
+    document.getElementById("minutes").innerHTML = minutes + "<span> minutos y</span>";
+    document.getElementById("seconds").innerHTML = seconds + "<span> segundos</span>";
 
 }
 
